@@ -1,0 +1,60 @@
+body{
+    margin-top: 5rem;
+}
+
+.box {
+    border: 10px solid black;
+    width: 650px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    background-color: black;
+}
+
+.box div {
+    flex: 1;
+    transition: all .10s linear;
+}
+
+#box1 {
+    background-color: #8A2BE2;
+}
+
+#box2 {
+    background-color: #a03ca0;
+}
+
+#box3 {
+    background-color: #ff7c7c;
+}
+
+#box4 {
+    background-color: #f59666;
+}
+
+#box5 {
+    background-color: #fbb900b0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#startbtn {
+    cursor: pointer;
+    color: honeydew;
+    background-color: #008656;
+    border: none;
+    padding: 5px 35px;
+}
+
+#stopbtn {
+    cursor: pointer;
+    color: honeydew;
+    background-color: red;
+    border: none;
+    padding: 5px 35px;
+    margin-left: 165px;
+}
